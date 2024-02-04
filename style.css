@@ -105,6 +105,11 @@ nav .left-side {
     height: 30px;
     border-radius: 50px;
 }
+.main {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
 
 .sidebar {
     display: flex;
@@ -114,8 +119,8 @@ nav .left-side {
     height: 93vh;
     padding-left: 15px;
     row-gap: 20px;
-    overflow-x: hidden;
     position: fixed;
+    overflow-x: hidden;
 }
 .small-sidebar {
     width: 3%;
@@ -186,3 +191,47 @@ nav .left-side {
     color: rgb(197, 197, 197);
 }
 
+.main .inner-main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 260px;
+    width: 100%;
+}
+
+.suggestion-bar {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    position: fixed;
+    overflow-y: hidden;
+    padding: 5px 15px;
+    width: 100%;
+}
+
+.suggestion-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.suggestion-bar .cell {
+    background-color: rgb(221, 221, 221);
+    padding: 8px 18px;
+    border-radius: 14px;
+    display: flex;
+    margin: 0px 15px;
+    text-wrap: nowrap;
+    font-size: small;
+    font-weight: 500;
+}
+
+.suggestion-bar .cell:hover {
+    cursor: pointer;
+    background-color: rgb(192, 192, 192);
+}
+.video-plate {
+    background-color: red;
+    top: 59px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow-x: hidden;
+}
