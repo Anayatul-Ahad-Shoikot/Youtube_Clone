@@ -105,16 +105,7 @@ nav .left-side {
     height: 30px;
     border-radius: 50px;
 }
-.small-sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 10%;
-    height: 93vh;
-    padding-left: 15px;
-    overflow-x: hidden;
-    position: fixed;
-}
+
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -126,7 +117,24 @@ nav .left-side {
     overflow-x: hidden;
     position: fixed;
 }
+.small-sidebar {
+    width: 3%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    row-gap: 0px;
+}
+.small-sidebar p , .small-sidebar a {
+    display: none;
+}
+.small-sidebar .st {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
 
+.small-sidebar .fst-box.title {
+    display: none;
+}
 
 .sidebar::-webkit-scrollbar {
     display: none;
