@@ -105,20 +105,32 @@ nav .left-side {
     height: 30px;
     border-radius: 50px;
 }
-
+.small-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10%;
+    height: 93vh;
+    padding-left: 15px;
+    overflow-x: hidden;
+    position: fixed;
+}
 .sidebar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 245px;
-    height: 89vh;
-    margin: 15px;
+    height: 93vh;
+    padding-left: 15px;
     row-gap: 20px;
     overflow-x: hidden;
+    position: fixed;
 }
 
 
-
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
 .sidebar .fst-box {
     display: flex;
     justify-content: left;
