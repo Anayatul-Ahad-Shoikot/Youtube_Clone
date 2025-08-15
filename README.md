@@ -2,7 +2,7 @@
 
 A responsive YouTube homepage clone built purely with **HTML, CSS, and JavaScript**. This project is created for learning and practice purposes, focusing on **frontend development**, layout structuring, and responsive design. No backend or database is used.
 
-**[Live Demo](#)**
+**[Live Demo]([https://youtube-clone-six-self.vercel.app/)**
 
 ## Project Overview
 
